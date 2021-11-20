@@ -9,7 +9,7 @@
 
 
 // Get references to the #generate element
-var generateBtn = document.querySelector("#generate").addEventListener("click", writePassword);
+var generateBtn = document.querySelector("#generate");
 
 //Password character arrays
 var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
@@ -23,6 +23,30 @@ var passwordSpecialCharacter;
 var passwordNumericCharacter;
 var passwordUpperCase;
 var passwordLowerCase;
+
+// Password length
+function generatePassword() {
+  var passwordLength = (prompt("Choose password length. (Type a value between 8-128)"));
+
+  // Loop if input doesn't match criteria
+  while(passwordLength <= 8 || passwordLength >= 128) {
+      alert("Password length must be between 8-128 characters! Try again.");
+      var passwordLength = (prompt("Choose password length. (Type a value between 8-128)"));
+      } 
+
+      // Prompts
+    var passwordLowerCase = password("Click OK if you would like lowercase letters in your password.");
+        var passwordUpperCase = password("Click OK if you would like uppercase letters in your password.");   
+        var passwordNumericCharacter = password("Click OK if you would like to numbers in your password.");    
+        var passwordSpecialCharacter = password("Click OK if you would like special characters in your password.");
+          // Loop if answer is outside the parameters 
+      while(passwordUpperCase === false && passwordLowerCase === false && passwordSpecialCharacter === false && passwordNumericCharacter === false) {
+        alert("Please choose at least one parameter.");
+        var passwordLowerCase = password("Click OK if you would like lowercase letters in your password.");
+        var passwordUpperCase = password("Click OK if you would like uppercase letters in your password.");   
+        var passwordNumericCharacter = password("Click OK if you would like to numbers in your password.");    
+        var passwordSpecialCharacter = password("Click OK if you would like special characters in your password.");
+        
 
 // Write password to the #password input
 function writePassword() {
