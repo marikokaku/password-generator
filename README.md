@@ -41,9 +41,9 @@ Visual studio for writing code.
 ## Usage
 
 ```md
-![Visual Studio Code](/images/2021-11-21.png)
-![Window Prompt](/images/2021-11-21(1).png)
-![Password Result](/images/2021-11-21(4).png)
+![Visual Studio Code](images/2021-11-21.png)
+![Window Prompt](images/2021-11-21(1).png)
+![Password Result](images/2021-11-21(4).png)
 ```
 
 ## Badges
