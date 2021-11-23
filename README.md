@@ -40,11 +40,11 @@ Visual studio for writing code.
 
 ## Usage
 
-```md
-![Visual Studio Code](screenshot1.png)
-![Window Prompt](/images/screenshot2.png)
-![Password Result](/images/screenshot3.png)
-```
+
+![Visual Studio Code](./images/screenshot1.png)
+![Window Prompt](./images/screenshot2.png)
+![Password Result](./images/screenshot3.png)
+
 
 ## Badges
 
