@@ -2,21 +2,7 @@
 
 ## Description
 
-This challenge to build a random password generator involved utilizing the javascript knowledge we've gained so far through module 3. 
-
-Declaring variables, creating functions, and incorporating loops and if statements like we did in the robot gladiators module activity is a great basis for this challenge. 
-
-```
-var fightOrSkip = function() {
-  var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
-```
-
-The main requirements for this challenge are:
-
--Have a password length between 8-128 characters.
--Have prompts that specify criteria of the password contents ie. lowercase, uppercase, numbers, and special characters. 
-
-Since were still in the beginning learning phase of javascript, not all code in this project is as efficient as it could be. 
+Random Password Generator that uses window prompts to gather criteria regarding password length, uppercase/lowercase letters, numbers, and special characters. 
 
 
  [Deployed application](https://marikokaku.github.io/password-generator/).
